@@ -1,7 +1,7 @@
 ## Function to allow caching the inverse of matrix
 
 ## Function creates special vector, containing list of functions 
-## set, get, setmatrix, getMatrix
+## set, get, setinverse, getinverse
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
         set <- function(y) {
